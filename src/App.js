@@ -11,6 +11,8 @@ import UserProfile from './pages/UserProfile'
 import CreateUpdateSighting from './pages/CreateUpdateSighting'
 import Home from './pages/Home';
 
+//Declare URL
+export const URL = process.env.REACT_APP_SERVER_URL
 
 
 function App() {
@@ -31,9 +33,9 @@ function App() {
           <Footer />
         </div>
       </Router>
-      <ToastContainer/>
-      </>
-      );
+      <ToastContainer />
+    </>
+  );
 }
 
-      export default App;
+export default App;
