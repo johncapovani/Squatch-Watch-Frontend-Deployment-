@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = '/api/sightings'
+const API_URL = 'https://squatch-watch-backend-deployment.onrender.com/api/users/'
 
 // Register user
 const register = async (userData) => {
