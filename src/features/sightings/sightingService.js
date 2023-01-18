@@ -1,6 +1,9 @@
 import axios from 'axios'
+//Import URL
+import { URL } from '../App'
 
-const API_URL = '/api/sightings/'
+
+const API_URL = `${URL}/api/sightings/`
 
 //Create new sighting
 const createSighting = async (sightingData, token) => {
