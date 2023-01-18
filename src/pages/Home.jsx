@@ -24,9 +24,9 @@ function Home() {
     // }, [isError, message, navigate, dispatch])
 
 
-    if (isLoading) {
-        return <Spinner />
-    }
+    // if (isLoading) {
+    //     return <Spinner />
+    // }
 
     return (
         <div className="home">
