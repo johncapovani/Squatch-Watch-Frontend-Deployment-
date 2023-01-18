@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "proxy": "https://squatchwatchbuild.onrender.com",
+  "proxy": "https://squatch-watch-backend-deployment.onrender.com",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
