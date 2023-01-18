@@ -7,8 +7,8 @@ import Spinner from '../components/Spinner'
 import '../App.css'
 
 function Home() {
-    const navigate = useNavigate()
-    const dispatch = useDispatch()
+    // const navigate = useNavigate()
+    // const dispatch = useDispatch()
     const { sightings, isError, isLoading, message } = useSelector((state) => state.sightings)
 
     // useEffect(() => {
