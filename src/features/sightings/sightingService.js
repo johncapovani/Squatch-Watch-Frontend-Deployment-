@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = '/api/sightings/'
+const API_URL = '/api/sightings'
 
 //Create new sighting
 const createSighting = async (sightingData, token) => {
