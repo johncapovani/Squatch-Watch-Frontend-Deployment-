@@ -38,7 +38,7 @@ const getMySightings = async (token) => {
 
 //Get sightings
 const getSightings = async () => {
-    const response = await axios.get('https://squatch-watch-backend-deployment.onrender.com/api/sightings')
+    const response = await axios.get(`${URL}/api/sightings/`)
 
     return response.data
 }
