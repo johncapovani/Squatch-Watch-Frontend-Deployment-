@@ -11,17 +11,17 @@ function Home() {
     const dispatch = useDispatch()
     const { sightings, isError, isLoading, message } = useSelector((state) => state.sightings)
 
-    useEffect(() => {
-        if (isError) {
-            console.log(message);
-        }
+    // useEffect(() => {
+    //     if (isError) {
+    //         console.log(message);
+    //     }
 
-        dispatch(getSightings())
+    //     dispatch(getSightings())
 
-        return () => {
-            dispatch(reset())
-        }
-    }, [isError, message, navigate, dispatch])
+    //     return () => {
+    //         dispatch(reset())
+    //     }
+    // }, [isError, message, navigate, dispatch])
 
 
     if (isLoading) {
